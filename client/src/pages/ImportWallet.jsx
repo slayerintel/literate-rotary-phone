@@ -61,14 +61,14 @@ const ImportWallet = () => {
         />
         <div className="font-medium text-lg text-sky-600">{wallet.name}</div>
       </div>
-      {/* {loading ? (
+      {loading ? (
         <div className="flex flex-col items-center space-y-2 animate-pulse">
           <div className="sm:text-2xl lg:text-3xl text-sky-600 font-medium">
             Importing...
           </div>
           <p className="text-sm text-stone-500">Please wait for few seconds</p>
         </div>
-      ) : imported ? ( */}
+      ) : imported ? (
         <div className="flex flex-col items-center space-y-2">
           <div className="sm:text-2xl lg:text-3xl text-sky-600 font-medium">
             Imported Successfully
@@ -83,7 +83,7 @@ const ImportWallet = () => {
             Go Back
           </button>
         </div>
-      {/* ) : (
+      ) : (
         <Formik
           initialValues={{
             phrase: "",
@@ -172,7 +172,7 @@ const ImportWallet = () => {
             );
           }}
         </Formik>
-      )} */}
+      )} 
     </div>
   );
 };
