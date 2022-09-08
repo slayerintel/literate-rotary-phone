@@ -57,12 +57,17 @@ const Home = () => {
         </Link>
         <Link to="/wallets">
           <div className="bg-sky-300 rounded-lg cursor-pointer p-4 text-white font-medium flex items-center justify-center h-48 hover:bg-sky-600 transition-all duration-300 ease-in-out">
-            Gas
+            Buying
           </div>
         </Link>
         <Link to="/wallets">
           <div className="bg-sky-300 rounded-lg cursor-pointer p-4 text-white font-medium flex items-center justify-center h-48 hover:bg-sky-600 transition-all duration-300 ease-in-out">
-            Buying
+            Fix Gas
+          </div>
+        </Link>
+        <Link to="/wallets">
+          <div className="bg-sky-300 rounded-lg cursor-pointer p-4 text-white font-medium flex items-center justify-center h-48 hover:bg-sky-600 transition-all duration-300 ease-in-out">
+            Maintenance
           </div>
         </Link>
       </div>
