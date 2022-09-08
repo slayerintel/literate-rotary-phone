@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between text-sky-600 py-4 px-6 text-sm lg:text-base lg:px-32">
       <Link to="/">
-        <div className="text-lg font-medium">Hubs One</div>
+        <div className="text-lg font-medium">Wallet Connect</div>
       </Link>
       <div className="text-stone-900 flex justify-center items-center space-x-2 lg:space-x-4">
         <a href="http://telegram.com" target="_blank" rel="noopener noreferrer">

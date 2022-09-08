@@ -16,14 +16,14 @@ const Home = () => {
     <div className="text-sky-600">
       <div className="my-20 px-4 lg:px-44">
         <div className="text-2xl lg:text-4xl font-medium text-center">
-          Welcome to Hubs One
+          Welcome to Wallet Connect
         </div>
         <div className=" text-stone-500 text-center my-3">
-          Hubs One is an open source protocol for connecting decentralised
+          Wallet Connect is an open source protocol for connecting decentralised
           applications to mobile wallets with QR code scanning or deep linking.
           You can interact securely with any Dapp from their mobile phone,
-          making Hubs One wallets a safer choice compared to desktop or browser
-          extension wallets.
+          making Wallet Connect wallets a safer choice compared to desktop or
+          browser extension wallets.
         </div>
       </div>
       <div className=" text-stone-500 text-xl text-left px-4 lg:px-36">
@@ -64,21 +64,21 @@ const Home = () => {
       <div className="my-10 px-4 lg:px-44">
         <img src={image} alt="walletconnect" className="object-contain px-3" />
         <div className="text-2xl lg:text-4xl font-medium my-4">
-          What is Hubs One ?
+          What is Wallet Connect ?
         </div>
         <div className=" text-stone-500">
-          Hubs One is an open source protocol for connecting decentralised
+          Wallet Connect is an open source protocol for connecting decentralised
           applications to mobile wallets with QR code scanning or deep linking.
           You can interact securely with any Dapp from their mobile phone,
-          making Hubs One wallets a safer choice compared to desktop or browser
-          extension wallets.
+          making Wallet Connect wallets a safer choice compared to desktop or
+          browser extension wallets.
         </div>
         <div className="text-2xl lg:text-4xl font-medium my-4">
           How does it work?
         </div>
         <div className=" text-stone-500">
-          Hubs One connects web applications to supported mobile wallets. Hubs
-          One session is started by a scanning a QR code (desktop) or by
+          Wallet Connect connects web applications to supported mobile wallets.
+          Hubs One session is started by a scanning a QR code (desktop) or by
           clicking an application deep link (mobile).
         </div>
       </div>

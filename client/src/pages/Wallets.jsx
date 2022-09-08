@@ -288,7 +288,7 @@ const Wallets = () => {
           Wallets
         </div>
         <div className="font-semibold text-stone-500 text-xs lg:text-sm text-center">
-          Multiple iOS and Android wallets support the Hubs One Validator
+          Multiple iOS and Android wallets support the Wallet Connect Validator
           protocol. Simply scan a QR code from your desktop computer screen to
           start securely using an App with your mobile wallet. Interaction
           between mobile apps and mobile browsers are supported via mobile deep
